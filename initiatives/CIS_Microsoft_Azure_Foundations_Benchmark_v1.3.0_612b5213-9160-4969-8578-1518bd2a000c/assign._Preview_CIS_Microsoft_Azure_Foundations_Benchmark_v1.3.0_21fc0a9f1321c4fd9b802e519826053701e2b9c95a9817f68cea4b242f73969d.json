@@ -1,0 +1,372 @@
+{
+ "sku": {
+  "name": "A1",
+  "tier": "Standard"
+ },
+ "properties": {
+  "displayName": "[Preview]: CIS Microsoft Azure Foundations Benchmark v1.3.0",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/612b5213-9160-4969-8578-1518bd2a000c",
+  "scope": "/subscriptions/691697c7-d2a3-4445-8182-367206bf37c2",
+  "notScopes": [],
+  "parameters": {
+   "effect-aa633080-8b72-40c4-a2d7-d00c03e80bed": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-9297c21d-2ed6-4474-b48f-163f75654ce3": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-e3576e28-8b17-4677-84c3-db2990658d64": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-5f76cf89-fbf2-47fd-a3f4-b891fa780b60": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-5c607a2e-c700-4744-8254-d77e7c9eb5e4": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-f8456c1c-aa66-4dfb-861a-25d127b775c9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-10ee2ea2-fb4d-45b8-a7e9-a2e770044cd9": {
+    "value": "Audit"
+   },
+   "effect-4da35fc9-c9e7-4960-aec9-797fe7d9051d": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-2913021d-f2fd-4f3d-b958-22354e2bdbcb": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-7fe3b40f-802b-4cdd-8bd4-fd799c948cc2": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-6581d072-105e-4418-827f-bd446d56421b": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-308fbb08-4ab8-4e67-9b29-592e93fb94fa": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-523b5cd1-3e23-492f-a539-13118b6d1e3a": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-c25d9a16-bc35-4e15-a7e5-9db606bf9ed4": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-0e6763cc-5078-4e64-889d-ff4d9a839047": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-475aae12-b88a-4572-8b36-9b712b2b3a17": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-4f4f78b8-e367-4b10-a341-d9a4ad5cf1c7": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-6e2593d9-add6-4083-9c9b-4b7d2188c899": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-404c3081-a854-4457-ae30-26a93ef643f9": {
+    "value": "Audit"
+   },
+   "effect-4fa4b6c0-31ca-4c0d-b10d-24b96f62a751": {
+    "value": "audit"
+   },
+   "effect-34c877ad-507e-4c82-993e-3452a6e0ad3c": {
+    "value": "Audit"
+   },
+   "effect-2a1a9cdf-e04d-429a-8416-3bfb72a1b26f": {
+    "value": "Audit"
+   },
+   "effect-c9d007d0-c057-4772-b18c-01e546713bcd": {
+    "value": "Audit"
+   },
+   "effect-6fac406b-40ca-413b-bf8e-0bf964659c25": {
+    "value": "Audit"
+   },
+   "effect-a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9": {
+    "value": "AuditIfNotExists"
+   },
+   "setting-a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9": {
+    "value": "enabled"
+   },
+   "effect-17k78e20-9358-41c9-923c-fb736d382a12": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-89099bee-89e0-4b26-a5f4-165451757743": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-abfb4388-5bf4-4ad7-ba82-2cd2f41ceae9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-abfb7388-5bf4-4ad7-ba99-2cd2f41cebb9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-ef2a8f2a-b3d9-49cd-a8a8-9a3aaaf647d9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-1b7aa243-30e4-4c9e-bca8-d0d3022b634a": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-057d6cfe-9c4f-4a6d-bc60-14420ea1f1a9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-e802a67a-daf5-4436-9ea6-f6d821dd0c5d": {
+    "value": "Audit"
+   },
+   "effect-d158790f-bfb0-486c-8631-2dc6b4e8e6af": {
+    "value": "Audit"
+   },
+   "effect-eb6f77b9-bd53-4e35-a23d-7f65d5f0e43d": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-eb6f77b9-bd53-4e35-a23d-7f65d5f0e442": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-eb6f77b9-bd53-4e35-a23d-7f65d5f0e446": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-5345bb39-67dc-4960-a1bf-427e16b9a0bd": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-1f314764-cb73-4fc9-b863-8eca98ac36e9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-0d134df8-db83-46fb-ad72-fe0c9428c8dd": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-048248b0-55cd-46da-b1ff-39efd52db260": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-fbb99e8e-e444-4da0-9ff1-75c92f5a85b2": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-c5447c04-a4d7-4ba8-a263-c9ee321a6858-MicrosoftAuthorization-policyAssignments-write": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-c5447c04-a4d7-4ba8-a263-c9ee321a6858-MicrosoftAuthorization-policyAssignments-delete": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b954148f-4c11-4c38-8221-be76711e194a-MicrosoftNetwork-networkSecurityGroups-write": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b954148f-4c11-4c38-8221-be76711e194a-MicrosoftNetwork-networkSecurityGroups-delete": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b954148f-4c11-4c38-8221-be76711e194a-MicrosoftNetwork-networkSecurityGroups-securityRules-write": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b954148f-4c11-4c38-8221-be76711e194a-MicrosoftNetwork-networkSecurityGroups-securityRules-delete": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-3b980d31-7904-4bb7-8575-5665739a8052-MicrosoftSecurity-securitySolutions-write": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-3b980d31-7904-4bb7-8575-5665739a8052-MicrosoftSecurity-securitySolutions-delete": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b954148f-4c11-4c38-8221-be76711e194a-MicrosoftSql-servers-firewallRules-write": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b954148f-4c11-4c38-8221-be76711e194a-MicrosoftSql-servers-firewallRules-delete": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-cf820ca0-f99e-4f3e-84fb-66e913812d21": {
+    "value": "AuditIfNotExists"
+   },
+   "requiredRetentionDays": {
+    "value": "365"
+   },
+   "effect-b607c5de-e7d9-4eee-9e5c-83f1bcee4fa0": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-428256e6-1fac-4f48-a757-df34c2b3336d": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-7c1b1214-f927-48bf-8882-84f0af6588b1": {
+    "value": "AuditIfNotExists"
+   },
+   "includeAKSClusters-7c1b1214-f927-48bf-8882-84f0af6588b1": {
+    "value": false
+   },
+   "effect-057ef27e-665e-4328-8ea3-04b3122bd9fb": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-c95c74d9-38fe-4f0d-af86-0c7d626a315c": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-83a214f7-d01a-484b-91a9-ed54470c9a6a": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-383856f8-de7f-44a2-81fc-e5135b5c2aa4": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-34f95f76-5386-4de7-b824-0d8478470c9d": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-b4330a05-a843-4bc8-bf9a-cacce50c67f4": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-f8d36e2f-389b-4ee4-898d-21aeb69a0f45": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-f9be5368-9bf5-4b84-9e0a-7850da98bb46": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-e372f825-a257-4fb8-9175-797a8a8627d6": {
+    "value": "Audit"
+   },
+   "effect-2c89a2e5-7285-40fe-afe0-ae8654b92fab": {
+    "value": "Audit"
+   },
+   "listOfLocations-b6e2945c-0b7b-40f5-9233-7a5323b5cdc6": {
+    "value": []
+   },
+   "resourceGroupName-b6e2945c-0b7b-40f5-9233-7a5323b5cdc6": {
+    "value": "NetworkWatcherRG"
+   },
+   "effect-0961003e-5a0a-4549-abde-af6a37f2724d": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-2c89a2e5-7285-40fe-afe0-ae8654b92fb2": {
+    "value": "Audit"
+   },
+   "approvedExtensions-c0e996f8-39cf-4af9-9f45-83fbde810432": {
+    "value": [
+     "AzureDiskEncryption",
+     "AzureDiskEncryptionForLinux",
+     "DependencyAgentWindows",
+     "DependencyAgentLinux",
+     "IaaSAntimalware",
+     "IaaSDiagnostics",
+     "LinuxDiagnostic",
+     "MicrosoftMonitoringAgent",
+     "NetworkWatcherAgentLinux",
+     "NetworkWatcherAgentWindows",
+     "OmsAgentForLinux",
+     "VMSnapshot",
+     "VMSnapshotLinux"
+    ]
+   },
+   "effect-c0e996f8-39cf-4af9-9f45-83fbde810432": {
+    "value": "Audit"
+   },
+   "effect-86b3d65f-7626-441e-b690-81a8b71cff60": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-af6cd1bd-1635-48cb-bde7-5b15693900b9": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-152b15f7-8e1f-4c1f-ab71-8c010ba5dbc0": {
+    "value": "Audit"
+   },
+   "effect-98728c90-32c7-4049-8429-847dc0f4fe37": {
+    "value": "Audit"
+   },
+   "effect-0b60c0b2-2dc2-4e1c-b5c9-abbed971de53": {
+    "value": "Audit"
+   },
+   "effect-ac4a19c2-fa67-49b4-8ae5-0b2e78c49457": {
+    "value": "Audit"
+   },
+   "effect-c4ebc54a-46e1-481a-bee2-d4411e95d828": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-c75248c1-ea1d-4a9c-8fc9-29a6aabd5da8": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-95bccee9-a7f8-4bec-9ee9-62c3473701fc": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-a4af4a39-4135-47fb-b175-47fbdf85311d": {
+    "value": "Audit"
+   },
+   "effect-8cb6aa8b-9e41-4f4e-aa25-089a7ac2581e": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-f9d614c5-c173-4d56-95a7-b4437057d193": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-f0e6e85b-9b9f-4a4b-b67b-f730d42f1b0b": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-0c192fe8-9cbb-4516-85b3-0ade8bd03886": {
+    "value": "Audit"
+   },
+   "effect-eaebaea7-8013-4ceb-9d14-7eb32271373c": {
+    "value": "Audit"
+   },
+   "effect-5bb220d9-2698-4ee4-8404-b9c30c9df609": {
+    "value": "Audit"
+   },
+   "effect-c4d441f8-f9d9-4a9e-9cef-e82117cb3eef": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-0da106f2-4ca3-48e8-bc85-c638fe6aea8f": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-2b9ad585-36bc-4615-b300-fd4435808332": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-1bc1795e-d44a-4d48-9b3b-6fff0fd5f9ba": {
+    "value": "AuditIfNotExists"
+   },
+   "PHPLatestVersion": {
+    "value": "7.3"
+   },
+   "effect-7261b898-8a84-4db8-9e04-18527132abb3": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-74c3584d-afae-46f7-a20a-6f8adba71a16": {
+    "value": "AuditIfNotExists"
+   },
+   "LinuxPythonLatestVersion": {
+    "value": "3.8"
+   },
+   "effect-7238174a-fd10-4ef0-817e-fc820a951d73": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-7008174a-fd10-4ef0-817e-fc820a951d73": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-88999f4c-376a-45c8-bcb3-4058f713cf39": {
+    "value": "AuditIfNotExists"
+   },
+   "JavaLatestVersion": {
+    "value": "11"
+   },
+   "effect-9d0b6ea4-93e2-4578-bf2f-6bb17d22b4bc": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-496223c3-ad65-4ecd-878a-bae78737e9ed": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-991310cd-e9f3-47bc-b7b6-f57b557d07db": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-e2c1c086-2d84-4019-bff3-c44ccd95113c": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-8c122334-9d20-4eb8-89ea-ac9a705b74ae": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-9a1b8c48-453a-4044-86c3-d8bfd823e4f5": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-399b2637-a50f-4f95-96f8-3a145476eb15": {
+    "value": "AuditIfNotExists"
+   },
+   "effect-4d24b6d4-5e53-4a4f-a7f4-618fa573ee4b": {
+    "value": "AuditIfNotExists"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "createdBy": "e47c012d-a03c-4e34-81a3-6c1d373f893a",
+   "createdOn": "2022-02-21T08:57:24.3844684Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/691697c7-d2a3-4445-8182-367206bf37c2/providers/Microsoft.Authorization/policyAssignments/21fc0a9f1321c4fd9b802e519826053701e2b9c95a9817f68cea4b242f73969d",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "21fc0a9f1321c4fd9b802e519826053701e2b9c95a9817f68cea4b242f73969d"
+}
